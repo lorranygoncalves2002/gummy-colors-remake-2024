@@ -1,0 +1,43 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    position: sticky;
+    margin: 0 auto;
+    
+}
+nav{
+    background-color: #000000;;
+    padding: 10px;
+}
+#logo{
+    width: 90px;
+    float: left ;
+    padding: 5px 150px 0px 50px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 25px 4px 2px 5px  ;
+    border-bottom: solid 2px rgb(175, 36, 59);
+    
+}
+nav ul li a:hover{
+    background-color: #ec87a0;
+    color: #070707;
+    transition: 500ms;
+}
