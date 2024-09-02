@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    margin: 0 ;
+}
+.menu{
+   margin: 0 auto;
+   position: sticky;
+}
+nav{
+    background-color: #000000;;
+    padding: 2vh 2vw;
+}
+#logo{
+    width: 6vw;
+    float: left ;
+    padding: 0 2vw 2vh 2vw;
+}
+nav ul{
+    margin: 0 30vw 0 30vw;
+    padding: 0;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    
+    
+}
+nav ul li a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    text-decoration: none;
+    display: block;
+    padding: 3vh 2vw 0 2vw  ;
+    border-bottom: solid 2px rgb(175, 36, 59);
+    
+    
+}
+nav ul li a:hover{
+    background-color: #504145;
+    color: #ffffff;
+    transition: 500ms;
+    border-radius: 5px;
+}
+#banner{
+    width: 100vw;
+    max-width: 99vw;
+    height: 550vh;
+    max-height: 60vh;
+    margin: 0 auto;
+    
+}
+section{
+    justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800vw;
+  display: block;
+ 
+}
+div{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 700vw;
+  height: auto;
+  max-height: 70vh;
+  
+  display: block;
+}
+h2{
+    margin: 10vh 40vw 0 40vw;
+    align-content: center;
+    align-self: center;
+    font-size: 5vh;
+    
+
+}
+h3{
+  font-size: 3vh;
+  color: #818181;
+  margin: 2vh 30vw 3vh 30vw;
+}
+/*Formatação dos cards*/
+.cards{
+    display: flex;
+}
+.card{
+    width: 16vw;
+    height: 50vh;
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 1px 5px 2px 2px rgb(235, 233, 233);
+    border-radius: 8%;
+    padding: 1vw 1vh;
+    background-color: white;
+}
+.card:hover{
+    width: 18vw;
+    height: 52vh;
+    transition: 600ms;
+}
+.imgCard{
+    width: 14vw;
+    height: 20vh;
+}
+h4{
+    margin: 0 auto;
+}
+.cardLink{
+    text-decoration: none;
+    margin: 0 auto;
+    color: black;
+}
+.cardLink:hover{
+    text-decoration: underline;
+}
+.cardP{
+    margin: 0 auto;
+}
+.cardButton{
+    border:1px #000000;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1vh 1vw;
+}
+.cardButton:hover{
+    background-color: #424242;
+}
+.sobre{
+    text-align: justify;
+    display: flex;
+    float: right;
+}
+.fotosSobre{
+    display: block;
+    width: 50vw;
+    max-width: 200vw;
+    height: 20vh;
+    max-height:40vh;
+    float: left;
+}
+.fotos{
+    width: 20vw;
+    max-width: 40vw;
+    
+}
+.sobrePs{
+    display: block;
+    width: 50vw;
+    max-width: 200vw;
+    height: 20vh;
+    max-height:40vh;
+    float: right;
+    min-height: 20vh;
+    /* display: block;
+    width: 50vw;
+    max-width: 200vw;
+   text-align: justify;
+   padding: 5vh;
+   height: 20vh;
+   max-height:40vh;
+   float: right; */
+}
+   
+  
